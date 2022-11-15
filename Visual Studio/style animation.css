@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	box-sizing: border-box;
+	animation: BGcolorChanging-2colors 5s linear infinite alternate both;
+}
+
+div {
+	width: 700px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.sometxt {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mydiv1 {
+	animation: BGcolorChanging-2colors 6s linear infinite alternate both;
+}
+@keyframes BGcolorChanging-2colors {
+	0% {
+		background: #7fffd4;
+	}
+	100% {
+		background: #dddddd;
+	}
+}
+
+.mydiv2 {
+	animation: BGcolorChanging-2colors 8s linear infinite alternate both;
+}
+@keyframes BGcolorChanging-2colors {
+	0% {
+		background: red;
+	}
+	100% {
+		background: green;
+	}
+}
