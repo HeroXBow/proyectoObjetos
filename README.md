@@ -2,26 +2,24 @@
 
 ## Proyecto: Introducción al desarrollo de aplicaciones orientadas a objectos.
 
-Creado por Jero
+`Creado por` Jerónimo Ballesta
 
-Profesor `Eric Casanova`
+`Profesor` Eric Casanova
 
-Subvencionado por `CESI`
+`Subvencionado por` CESI
 
 ```
-En producción... Disculpen las molestias.
-Mejoraremos el producto día a día.
-Puedes observar los avances, día a día, en nuestras redes sociales:
-
-`(Insertar iconos y enlaces con redes sociales)`
-
-Síguenos y comenta que te parece!
+Máquinas trabajando! Seguimos en producción.
+Disculpen las molestias.
+Mejoraremos la web día a día.
 
 ```
 
-![Surprise motherf***er](./doc/img/img_5terre.jpg)
+---
 
 [easyfruity.tk](easyfruity.tk)
+
+![Surprise motherf***er](./doc/img/frutas2.jpeg)
 
 ---
 
@@ -41,6 +39,8 @@ Con esta iniciativa, intentamos cambiar el modo de compra del cliente final, par
 
 Una alternativa para empezar un ciclo: podría ser construir tu propio huerto en casa: [Farmbot](https://farm.bot/)
 
-Diagrama `UML`
+---
 
-![IMAGEN DEL UML](./Doc/img/UML.jpg)
+`Diagrama UML`
+
+![IMAGEN DEL UML](./doc/img/UML211122.png)

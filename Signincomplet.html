@@ -5,8 +5,41 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="./menu.css" />
+		<style>
+			body {
+				background-color: #848484;
+			}
+
+			section {
+				margin: 20px;
+				padding: 20px;
+				background-color: #f9f9f9;
+			}
+			.bordeRedondo {
+				border-radius: 5px;
+			}
+		</style>
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li><a class="active" href="./index.html">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="./Signincomplet.html">Contact</a></li>
+				<li style="background-color: red" class="dropdown">
+					<a>Dropdown</a>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+				<li style="float: right"><a href="#about">About</a></li>
+				<li style="float: right"><a href="#sign">Signin</a></li>
+			</ul>
+		</nav>
+		<section>
 		<form action="recoger_datos.php" method="post">
 			<label>Nombre</label><input style="float: right" type="text" name="name" id="name" /><br />
 			<br />
@@ -17,8 +50,8 @@
 			<br />
 			<label>CP</label><input style="float: right" type="number" name="Codigo Postal" id="00000" /><br />
 			<br />
-			<label>Comentario</label><input type="text" style="float: right" value="Escribe aquí tu comentario" />
-			<br />
+			<label>Comentario</label><div style="float: right"><textarea  placeholder="Escribe aquí tu comentario" ></textarea>
+			</div><br />
 			<br />
 			<br />
 			<input type="submit" value="Enviar" />
